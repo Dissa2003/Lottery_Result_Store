@@ -1,0 +1,92 @@
+# Database files and configuration
+*.db
+*.sqlite
+*.sqlite3
+*.h2.db
+*.mv.db
+*.trace.db
+database/
+db/
+
+# Database connection details
+application-local.properties
+application-dev.properties
+application-prod.properties
+**/application-*.properties
+database.properties
+db.properties
+
+# Environment variables files
+.env
+.env.local
+.env.development
+.env.production
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Java
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
+# IDE
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.eclipse/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+application.log
+spring.log
+
+# Temporary files
+temp/
+tmp/
+*.temp
+
+# Security and sensitive data
+*.key
+*.pem
+*.p12
+*.jks
+secrets/
+credentials/
